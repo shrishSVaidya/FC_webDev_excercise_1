@@ -4,7 +4,7 @@
 
 h1{
     color: red;
-    font-size: 150px;
+    font-size: 15vh;
     text-align: center;
     font-family: 'Pacifico', cursive;
     animation: slide 6s ease-in-out 0.5s normal ;
@@ -20,7 +20,7 @@ h1{
     align-items: center;
     font-size: 3vh;
     font-family: 'Indie Flower', cursive;
-    border: 0.8rem solid rgb(181, 4, 181);
+    border: 0.4rem solid rgb(181, 4, 181);
     box-shadow: 15px 15px 10px grey;
     
 }
@@ -36,7 +36,7 @@ img{
 }
 
 .container{
-    margin-top: 2vh;
+    margin-top: 3vh;
     animation: ani 5s linear infinite forwards;
     
 }
