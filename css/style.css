@@ -1,0 +1,96 @@
+*{
+    animation: bc 9s ease-in infinite;
+}
+
+h1{
+    color: red;
+    font-size: 150px;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    animation: slide 6s ease-in-out 0.5s normal ;
+    z-index: 1;
+}
+
+.para{
+    margin-left: 25vw;
+    margin-right: 25vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 3vh;
+    font-family: 'Indie Flower', cursive;
+    border: 0.8rem solid rgb(181, 4, 181);
+    box-shadow: 15px 15px 10px grey;
+    
+}
+
+
+img:hover{
+    background-color: gold;
+}
+img{
+    
+    height: 20vh;
+    
+}
+
+.container{
+    margin-top: 2vh;
+    animation: ani 5s linear infinite forwards;
+    
+}
+
+.circular{
+    border-radius: 100%;
+}
+
+.brocolli{
+    background-color: red;
+    margin-left: 20vw;
+}
+
+.bacon{
+    background-color: green;
+    margin-left: 20vw;
+}
+
+#heading{
+    color: blue;
+}
+
+@keyframes ani{
+    0%{
+        transform: translate(-50vw);
+    }
+    100%{
+        transform: translate(100vw);
+    }
+}
+
+@keyframes slide {
+    0%{
+        transform: translateY(100vh);
+    }
+    100%{
+        transform: translateY(0.6vh);
+    }
+}
+
+@keyframes bc{
+    0%{
+        background-color: rgb(208, 223, 122);
+    }
+    25%{
+        background-color: rgb(149, 222, 214);
+    }
+    50%{
+        background-color: rgb(194, 204, 222);
+    }
+    /* 75%{
+        background-color: rgb(160, 190, 120);
+    } */
+    100%{
+        background-color: rgb(208, 223, 122);
+    }
+}
